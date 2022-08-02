@@ -1,11 +1,11 @@
-Feature: feature to test login functionality
+Feature: 测试登录功能
 
-  Scenario: check the login is successful with correct username and password
+  Scenario: 正确的账户与密码成功登录
 
-    Given user is on login page
+    Given 用户处在登录页面
 
-    When user enters correct username and password
-    And user clicks login button
-    Then user is able to login successfully
+    When 用户输入正确的账户与密码
+    And 点击登录按钮
+    Then 用户可以成功登录
 
 

@@ -1,9 +1,9 @@
-Feature: feature to test login functionality
+Feature: 测试登录功能
 
-  Scenario: check the login is unsuccessful with correct username and incorrect password
+  Scenario: 正确的账户与错误的密码, 不成功登录
 
-    Given user is on login page
+    Given 用户处在登录页面
 
-    When user enters correct username and incorrect password
-    And user clicks login button
-    Then user is able to see the password incorrect warning
+    When 用户输入正确的账户与错误的密码
+    And 点击登录按钮
+    Then 成功提示密码错误

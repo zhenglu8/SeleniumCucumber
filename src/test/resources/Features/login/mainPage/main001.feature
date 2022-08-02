@@ -1,4 +1,4 @@
-Feature: 测试登录功能
+Feature: 测试首页大屏
 
   Scenario: 只输入账户或者密码, 不成功登录
 
